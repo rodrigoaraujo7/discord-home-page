@@ -32,3 +32,29 @@
     letter-spacing: 0.5px;
     margin: 0px 5px 35px 5px;
 }
+
+.container .buttons {
+    width: 85%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container button {
+    width: 300px;
+    padding: 20px;
+
+    border: 0;
+    border-radius: 25px;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.container button:nth-child(2) {
+    background: #1a1a1a;
+    color: #f1f2f5;
+    box-shadow: 0 2px 2px #f1f2f5;
+}
