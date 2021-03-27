@@ -11,9 +11,24 @@
 
 .container {
     width: 55%;
+    color: #fff;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+
+.container h1 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.container p {
+    font-size: 15px;
+    font-family: 'Kiwi Maru', serif;
+    letter-spacing: 0.5px;
+    margin: 0px 5px 35px 5px;
 }
