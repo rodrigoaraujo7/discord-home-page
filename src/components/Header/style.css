@@ -16,3 +16,18 @@ header {
 header img {
     width: 135px;
 }
+
+header .hyperlinks a {
+    margin: 0 15px 0 15px;
+
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Kiwi Maru';
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header .hyperlinks a:hover {
+    text-decoration: underline;
+}
