@@ -52,6 +52,12 @@
     font-weight: 500;
 
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    color: #5858f8;
+    box-shadow: 0 5px 10px #5858f8
 }
 
 .container button:nth-child(2) {
@@ -59,4 +65,8 @@
     color: #f1f2f5;
 
     font-weight: 600;
+}
+
+.container button:nth-child(2):hover {
+    background: #333333;
 }

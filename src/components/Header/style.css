@@ -31,3 +31,17 @@ header .hyperlinks a {
 header .hyperlinks a:hover {
     text-decoration: underline;
 }
+
+header button {
+    border: 0;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header button:hover {
+    color: #5858f8;
+    box-shadow: 0 5px 10px #5858f8
+}
