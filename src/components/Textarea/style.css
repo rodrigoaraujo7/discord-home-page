@@ -1,0 +1,32 @@
+.containerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+
+    width: 95%;
+    margin-top: 35px;
+}
+
+.containerText .text {
+    width: 25%;
+
+    margin: auto;
+}
+
+.containerText h1 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+
+    color: #1d1d1d;
+}
+
+.containerText p {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Kiwi Maru', serif;
+    margin-top: 5px;
+    color: #2c2c2c;
+}
