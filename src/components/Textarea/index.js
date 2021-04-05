@@ -29,6 +29,14 @@ export default function Textarea() {
                     <p>Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
                 </div>
             </div>
+
+
+            <div className="containerText" width="75%">
+                <center>
+                    <h1>Reliable tech for staying close</h1>
+                    <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+                </center>
+            </div>
         </>
     );
 }
