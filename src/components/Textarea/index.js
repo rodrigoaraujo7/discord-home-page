@@ -39,6 +39,11 @@ export default function Textarea() {
                     <h1>Reliable tech for staying close</h1>
                     <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
                     <img src={image4} />
+                    
+                    <div className="margin"></div>
+
+                    <h1>Ready to start your journey?</h1>
+                    <button>Donwload for windows</button>
                 </center>
             </div>
         </>

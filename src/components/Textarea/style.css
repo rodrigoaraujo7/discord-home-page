@@ -30,3 +30,25 @@
     margin-top: 5px;
     color: #2c2c2c;
 }
+
+.containerText button {
+    width: 300px;
+    padding: 15px;
+    margin-top: 25px;
+
+    border: 0;
+    border-radius: 50px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+
+    color: #fff;
+    background: #5858f8;
+}
+
+.margin {
+    margin-top: 100px;
+}
