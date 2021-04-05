@@ -2,6 +2,7 @@ import "./style.css";
 import image1 from './image1.svg';
 import image2 from './image2.svg';
 import image3 from './image3.svg';
+import image4 from './image4.svg';
 
 export default function Textarea() {
     return (
@@ -31,10 +32,13 @@ export default function Textarea() {
             </div>
 
 
-            <div className="containerText" width="75%">
+            <div className="containerText" style={{
+                width: '75%'
+            }}>
                 <center>
                     <h1>Reliable tech for staying close</h1>
                     <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+                    <img src={image4} />
                 </center>
             </div>
         </>
