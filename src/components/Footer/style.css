@@ -12,3 +12,19 @@ footer .social-medias {
 
     color: #7289da;
 }
+
+footer .social-medias ul {
+    width: 100%;
+    
+    display: flex;
+}
+
+footer .social-medias ul li {
+    list-style: none;
+    margin: 15px 15px 0 0;
+
+    color: #fff;
+    font-size: 25px;
+
+    cursor: pointer;
+}
