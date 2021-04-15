@@ -1,8 +1,12 @@
 footer {
     width: 100%;
-    height: 90vh;
+    height: 75vh;
     margin-top: 15px;
     background: #222222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 footer .social-medias {
@@ -10,6 +14,8 @@ footer .social-medias {
     font-weight: 600;
     font-family: 'Oswald', sans-serif;
 
+    width: 20%;
+    margin-right: 50px;
     color: #7289da;
 }
 
@@ -27,4 +33,24 @@ footer .social-medias ul li {
     font-size: 25px;
 
     cursor: pointer;
+}
+
+footer .more-informations {
+    width: 45%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .more-informations ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kiwi Maru', serif;
+    cursor: pointer;
+    padding: 5px;
+}
+
+footer .more-informations ul li.subTitle {
+    color: #7289da
 }

@@ -3,6 +3,7 @@ import { AiOutlineTwitter, AiOutlineInstagram, AiFillFacebook, AiFillYoutube } f
 
 export default function Footer() {
     return (
+        <>
         <footer>
             <div className="social-medias">
                 <h1>Your place to talk</h1>
@@ -13,7 +14,49 @@ export default function Footer() {
                     <li><AiFillYoutube /></li>
                 </ul>
             </div>
-            <div></div>
+
+            <div className="more-informations">
+                <>
+                <ul>
+                    <li className="subTitle">Title</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                </ul>
+                </>
+
+                <>
+                <ul>
+                    <li className="subTitle">Title</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                </ul>
+                </>
+
+                <>
+                <ul>
+                    <li className="subTitle">Title</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                </ul>
+                </>
+
+               <>
+                <ul>
+                    <li className="subTitle">Title</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                    <li>Hello</li>
+                </ul>
+                </>
+            </div>
         </footer>
+        </>
     )
 }
